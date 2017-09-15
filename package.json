@@ -1,12 +1,13 @@
 {
-  "name": "aliyun-cli",
+  "name": "aliyun-cli-2",
   "version": "0.2.4",
   "latest": "0.2.4",
-  "description": "aliyun-cli",
+  "description": "aliyun-cli-2",
   "keywords": [
     "aliyun",
     "cli",
     "aliyun-cli",
+    "aliyun-cli-2",
     "oss"
   ],
   "preferGlobal": true,
@@ -21,11 +22,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhs007/aliyun-cli"
+    "url": "https://github.com/maoanran/aliyun-cli-2"
   },
   "bugs": {
-    "url": "https://github.com/zhs007/aliyun-cli/issues",
-    "email": "sssxueren@gmail.com"
+    "url": "https://github.com/maoanran/aliyun-cli-2/issues",
+    "email": "maoanran@gmail.com"
   },
   "directories": {
     "bin": "./bin"
@@ -38,12 +39,12 @@
     "start": "node ./bin/oss-cli.js"
   },
   "dependencies": {
-    "shelljs": "*",
-    "yargs": "*",
-    "glob": "*",
     "aliyun-sdk": "*",
     "async": "*",
-    "mime-types": "*"
+    "glob": "*",
+    "mime-types": "*",
+    "shelljs": "*",
+    "yargs": "*"
   },
   "license": "MIT",
   "readmeFilename": "README.md"

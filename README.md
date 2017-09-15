@@ -1,5 +1,5 @@
-# aliyun-cli
-一个跨平台的阿里云命令行工具。
+# aliyun-cli-2
+一个跨平台的阿里云命令行工具。 forked from aliyun-cli.
 
 特点
 ---
@@ -23,10 +23,10 @@
 
 安装
 ---
-全局安装aliyun-cli即可。
+全局安装aliyun-cli-2即可。
 
 ```
-npm install aliyun-cli -g
+npm install aliyun-cli-2 -g
 ```
 
 使用 oss-cli
