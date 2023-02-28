@@ -41,7 +41,7 @@
   "dependencies": {
     "aliyun-sdk": "*",
     "async": "*",
-    "glob": "*",
+    "glob": "^8.1.0",
     "mime-types": "*",
     "shelljs": "*",
     "yargs": "*"
