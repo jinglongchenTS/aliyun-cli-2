@@ -5,6 +5,7 @@
 var fs = require('fs');
 var process = require('process');
 var glob = require('glob');
+var globSync = glob.sync || glob.globSync;
 var async = require('async');
 var basecmd = require('../src/basecmd');
 var oss = require('../src/oss');
@@ -96,7 +97,7 @@ let cdnobj = cdn.newCDN(id, key);
 let arr = [];
 for (let j = 0; j < basearr.length; ++j) {
     if (basecmd.isDir(basearr[j])) {
-        let lstfile = glob.sync(basearr[j] + '/**/*.*');
+        let lstfile = globSync(basearr[j] + '/**/*.*');
         for (var i = 0; i < lstfile.length; ++i) {
             let srcfile = lstfile[i];
             if (fs.existsSync(srcfile)) {
@@ -107,7 +108,7 @@ for (let j = 0; j < basearr.length; ++j) {
         }
     }
     else {
-        let lstfile = glob.sync(basearr[j]);
+        let lstfile = globSync(basearr[j]);
         for (var i = 0; i < lstfile.length; ++i) {
             let srcfile = lstfile[i];
             if (fs.existsSync(srcfile)) {
