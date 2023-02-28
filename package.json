@@ -1,7 +1,7 @@
 {
   "name": "aliyun-cli-2",
-  "version": "0.2.5",
-  "latest": "0.2.5",
+  "version": "0.2.6",
+  "latest": "0.2.6",
   "description": "aliyun-cli-2",
   "keywords": [
     "aliyun",
@@ -41,7 +41,7 @@
   "dependencies": {
     "aliyun-sdk": "*",
     "async": "*",
-    "glob": "^8.1.0",
+    "glob": "*",
     "mime-types": "*",
     "shelljs": "*",
     "yargs": "*"
