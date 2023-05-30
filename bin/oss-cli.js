@@ -97,7 +97,7 @@ let cdnobj = cdn.newCDN(id, key);
 let arr = [];
 for (let j = 0; j < basearr.length; ++j) {
     if (basecmd.isDir(basearr[j])) {
-        let lstfile = globSync(basearr[j] + '/**/*.*');
+        let lstfile = globSync(basearr[j] + '/**/*');
         for (var i = 0; i < lstfile.length; ++i) {
             let srcfile = lstfile[i];
             if (fs.existsSync(srcfile)) {

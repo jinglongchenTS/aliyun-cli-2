@@ -1,32 +1,33 @@
 {
-  "name": "aliyun-cli-2",
-  "version": "0.2.6",
-  "latest": "0.2.6",
-  "description": "aliyun-cli-2",
+  "name": "aliyun-cli-3",
+  "version": "1.0.1",
+  "latest": "1.0.1",
+  "description": "aliyun-cli-3",
   "keywords": [
     "aliyun",
     "cli",
     "aliyun-cli",
     "aliyun-cli-2",
+    "aliyun-cli-3",
     "oss"
   ],
   "preferGlobal": true,
   "config": {
     "publishtest": false
   },
-  "homepage": "http://www.heysdk.com/",
+  "homepage": "https://github.com/jinglongchenTS/aliyun-cli-3.git",
   "author": {
-    "name": "zhs007",
-    "email": "sssxueren@gmail.com",
-    "url": "http://www.heysdk.com"
+    "name": "Ike chen",
+    "email": "jinglong.chen@tradeshift.com",
+    "url": "https://github.com/jinglongchenTS/aliyun-cli-3.git"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maoanran/aliyun-cli-2"
+    "url": "https://github.com/jinglongchenTS/aliyun-cli-3.git"
   },
   "bugs": {
-    "url": "https://github.com/maoanran/aliyun-cli-2/issues",
-    "email": "maoanran@gmail.com"
+    "url": "https://github.com/jinglongchenTS/aliyun-cli-3/issues",
+    "email": "jinglong.chen@tradeshift.com"
   },
   "directories": {
     "bin": "./bin"
